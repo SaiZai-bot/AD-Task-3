@@ -1,0 +1,16 @@
+{
+    "name": "zaimonemiranda/ad-task-3",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Zaimonemiranda\\AdTask3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SaiZai-bot",
+            "email": "202310159@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}
