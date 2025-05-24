@@ -1,0 +1,64 @@
+
+.header {
+    margin: 20px;
+
+}
+
+.containerR {
+    max-width: 100%;
+    border: 50px;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #AC8968;
+}
+
+
+
+.descriptionR h2, .descriptionR h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.room-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #3E362E;
+    transition: box-shadow 0.3s;
+}
+
+.room-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.room-card h4 {
+    margin-top: 0;
+    color: white;
+}
+
+.room-card p {
+    margin: 5px 0;
+    font-size: medium;
+    color: white;
+}
+
+.room-card ul {
+    padding-left: 20px;
+    margin: 5px 0;
+    color: white;
+}
+
+.room-card ul li {
+    font-size: medium;
+}
