@@ -23,7 +23,8 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=SaiZai-bot/AD-Task-3)
 
-[![wakatime](https://wakatime.com/badge/user/04412757-f1c1-4ba6-86ec-7b8428992c73/project/89d28e0d-a51a-430d-ba39-883e29de6e97.svg)](https://wakatime.com/badge/user/04412757-f1c1-4ba6-86ec-7b8428992c73/project/89d28e0d-a51a-430d-ba39-883e29de6e97)
+[![wakatime](https://wakatime.com/badge/user/04412757-f1c1-4ba6-86ec-7b8428992c73/project/0a7e52f5-7e46-4292-84bc-5fb116329960.svg)](https://wakatime.com/badge/user/04412757-f1c1-4ba6-86ec-7b8428992c73/project/0a7e52f5-7e46-4292-84bc-5fb116329960)
+
 ---
 
 <br />
