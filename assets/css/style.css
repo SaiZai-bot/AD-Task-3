@@ -15,8 +15,18 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba (0,0,0,0.1);
-    
+}
+
+.site-footer {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 
@@ -97,3 +107,4 @@ body {
     background-color: #A69080;
     color: #3E362E;
 }
+

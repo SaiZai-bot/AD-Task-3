@@ -17,4 +17,4 @@ USER zyx
 
 EXPOSE 8000
 
-CMD ["compose", "start"]
+CMD ["php", "-S", "0.0.0.0:8000"]

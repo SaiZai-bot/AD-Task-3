@@ -2,6 +2,10 @@ services:
   web-app-php:
     build: .
     container_name: web-app-php-1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/var/www/html
     # depends_on:
     #   - postgres
     #   - mongo

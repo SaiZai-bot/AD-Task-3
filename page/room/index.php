@@ -1,4 +1,6 @@
 <?php
+define('BASE_PATH', dirname(__DIR__, 2)); // Go up 2 levels from /page/room
+
 require_once BASE_PATH . '/handlers/rooms.handlers.php';
 require_once BASE_PATH . '/components/templates/nav.component.php';
 require_once BASE_PATH . '/components/templates/footer.component.php';
@@ -11,21 +13,22 @@ head();
 
 <main class = "containerR">
     <div class = "descriptionR">
-        <h2>Available Hotel Rooms (as of <?php echo date("F j, Y"); ?>)</h2>
+        <div class = "heading">
+            <h2>Available Hotel Rooms (as of <?php echo date("F j, Y"); ?>)</h2>
 
-        <?php
-        $availableRooms = [];
-        $availableRoomsDetails = [];
-        
-        foreach($Rooms["rooms"] as $roomKey => $room){
-            if($room["availability"]){
-                $availableRooms[] = $room["name"];
-                $availableRoomsDetails[] = $room;
+            <?php
+            $availableRooms = [];
+            $availableRoomsDetails = [];
+            
+            foreach($Rooms["rooms"] as $roomKey => $room){
+                if($room["availability"]){
+                    $availableRooms[] = $room["name"];
+                    $availableRoomsDetails[] = $room;
+                }
             }
-        }
-
+        
         $roomList = implode(", ", $availableRooms);
-        echo "<p><strong>Available Rooms: </strong> $roomList</p>";
+        echo "<p><strong>Available Rooms: </strong> $roomList</p> </div>";
 
         echo "<h3>Available Room Details: </h3>";
         echo "<div class ='room-grid'>";
